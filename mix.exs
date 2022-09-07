@@ -44,7 +44,7 @@ defmodule Leruaite.MixProject do
       {:cloak_ecto, "~> 1.1.1"},
       {:postgrex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
-      {:ja_serializer, "~> 0.16.0"},
+      {:ja_serializer, "~> 0.17.0"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:tesla, "~> 1.2"},
