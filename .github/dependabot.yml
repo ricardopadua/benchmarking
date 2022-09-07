@@ -3,20 +3,66 @@ updates:
 - package-ecosystem: mix
   directory: "/"
   schedule:
-    interval: daily
-  open-pull-requests-limit: 20
+    interval: "daily"
+    # time: "09:00"
+    timezone: "America/Sao_Paulo"
+  ignore:
+    - dependency-name: "phoenix_ecto"
+  open-pull-requests-limit: 10
+  labels:
+    - "mix"
+    - "elixir"
+    - "dependencies"
+  reviewers:
+    - "ricardopadua"
+  assignees:
+    - "ricardopadua"
+
+
 - package-ecosystem: npm
   directory: "/assets"
   schedule:
-    interval: daily
-  open-pull-requests-limit: 20
+    interval: "daily"
+    # time: "09:00"
+    timezone: "America/Sao_Paulo"
+  open-pull-requests-limit: 10
+  labels:
+    - "npm"
+    - "javascript"
+    - "dependencies"
+  reviewers:
+    - "ricardopadua"
+  assignees:
+    - "ricardopadua"
+
+
 - package-ecosystem: docker
   directory: "/"
   schedule:
-    interval: daily
-  open-pull-requests-limit: 20
+    interval: "daily"
+    # time: "09:00"
+    timezone: "America/Sao_Paulo"
+  open-pull-requests-limit: 10
+  labels:
+    - "docker"
+    - "dependencies"
+  reviewers:
+    - "ricardopadua"
+  assignees:
+    - "ricardopadua"
+
+
 - package-ecosystem: docker
   directory: "/deploy"
   schedule:
-    interval: daily
-  open-pull-requests-limit: 20
+    interval: "daily"
+    # time: "09:00"
+    timezone: "America/Sao_Paulo"
+  open-pull-requests-limit: 10
+  labels:
+    - "docker"
+    - "dependencies"
+  reviewers:
+    - "ricardopadua"
+  assignees:
+    - "ricardopadua"
