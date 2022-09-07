@@ -41,7 +41,7 @@ defmodule Leruaite.MixProject do
       {:ecto_sql, "~> 3.2"},
       {:ecto, "~> 3.2"},
       {:floki, "~> 0.26"},
-      {:cloak_ecto, "~> 1.1.1"},
+      {:cloak_ecto, "~> 1.2.0"},
       {:postgrex, ">= 0.0.0"},
       {:gettext, "~> 0.11"},
       {:ja_serializer, "~> 0.16.0"},
