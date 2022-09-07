@@ -67,7 +67,7 @@ defmodule Leruaite.MixProject do
       {:opentelemetry, "~> 0.4"},
       {:opentelemetry_exporter, "~> 0.3.0"},
       {:logger_json, "~> 4.0"},
-      {:joken, "~> 2.3.0"},
+      {:joken, "~> 2.5.0"},
       {:phoenix_live_dashboard, "~> 0.4"},
       {:excoveralls, "~> 0.10", only: :test},
       {:brcpfcnpj, "~> 0.2.1"},
