@@ -21,7 +21,7 @@
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.0",
     "css-loader": "^5.2.6",
-    "mini-css-extract-plugin": "^1.6.0",
+    "mini-css-extract-plugin": "^2.6.1",
     "optimize-css-assets-webpack-plugin": "^5.0.6",
     "prettier": "^2.3.1",
     "resolve-url-loader": "^4.0.0",
