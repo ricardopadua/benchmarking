@@ -1,19 +1,36 @@
-# Leruaite
+# LeruaiteBenchmarking
 
-To start your Phoenix server:
+**TODO: Add description**
 
-  * Install dependencies with `mix deps.get`
-  * Install Node.js dependencies with `cd assets && npm install`
-  * Start Phoenix endpoint with `mix phx.server`
+## Installation
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `leruaite_benchmarking` to your list of dependencies in `mix.exs`:
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+```elixir
+def deps do
+  [
+    {:leruaite_benchmarking, "~> 0.1.0"}
+  ]
+end
+```
 
-## Learn more
 
-  * Official website: http://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+```elixir
+   Benchee.run(%{
+    "1000-seq-fibonacci" => fn -> LeruaiteBenchmarking.list(1000) end,
+    "10_000-seq-fibonacci" => fn -> LeruaiteBenchmarking.list(10_000) end,
+  },
+  time: 10, 
+  warmup: 10, 
+  formatters: [
+    Benchee.Formatters.HTML, 
+    Benchee.Formatters.Console
+    ]
+  )
+```
+
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at <https://hexdocs.pm/leruaite_benchmarking>.
+
