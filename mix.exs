@@ -90,7 +90,7 @@ defmodule Leruaite.MixProject do
       {:fuse, "~> 2.4"},
       {:decorator, "~> 1.4"},
       {:junit_formatter, "~> 3.1", only: [:test]},
-      {:tarams, "~> 1.0.0"}
+      {:tarams, "~> 1.6.1"}
     ]
   end
 end
