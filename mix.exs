@@ -85,7 +85,7 @@ defmodule Leruaite.MixProject do
       {:elixlsx, "~> 0.4.2"},
       {:xlsxir, "~> 1.6.4", only: :test},
       {:temporary_env, "~> 2.0", only: :test, runtime: false},
-      {:brod, "~> 3.14.0"},
+      {:brod, "~> 3.16.4"},
       {:crc32cer, "~> 0.1.4", override: true},
       {:fuse, "~> 2.4"},
       {:decorator, "~> 1.4"},
