@@ -70,7 +70,7 @@ defmodule Leruaite.MixProject do
       {:joken, "~> 2.3.0"},
       {:phoenix_live_dashboard, "~> 0.4"},
       {:excoveralls, "~> 0.10", only: :test},
-      {:brcpfcnpj, "~> 0.2.1"},
+      {:brcpfcnpj, "~> 1.0.0"},
       {:ecto_immigrant, "~> 0.3.0"},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
       {:ex_aws, "~> 2.1"},
