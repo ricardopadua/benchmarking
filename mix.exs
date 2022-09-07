@@ -81,7 +81,7 @@ defmodule Leruaite.MixProject do
       {:xml_builder, "~> 2.1"},
       {:bamboo, "~> 2.0"},
       {:bamboo_phoenix, "~> 1.0.0"},
-      {:sentry, "8.0.0"},
+      {:sentry, "8.0.6"},
       {:elixlsx, "~> 0.4.2"},
       {:xlsxir, "~> 1.6.4", only: :test},
       {:temporary_env, "~> 2.0", only: :test, runtime: false},
