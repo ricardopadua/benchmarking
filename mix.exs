@@ -61,7 +61,7 @@ defmodule Leruaite.MixProject do
       {:mox, "~> 1.0.0", only: :test},
       {:oauth2, "~> 2.0"},
       {:csv, "~> 2.3"},
-      {:goth, "~> 1.2.0"},
+      {:goth, "~> 1.3.1"},
       {:telemetry_metrics, "~> 0.4"},
       {:telemetry_poller, "~> 0.4"},
       {:opentelemetry, "~> 0.4"},
